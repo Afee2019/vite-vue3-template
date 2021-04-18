@@ -1,5 +1,7 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+/* eslint-enable import/no-extraneous-dependencies */
 
 // 如果编辑器提示 path 模拟找不到，则可以安装一下 @types/node -> npm i @types/node -D
 import { resolve } from 'path'
