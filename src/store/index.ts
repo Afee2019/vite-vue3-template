@@ -11,7 +11,8 @@ export default createStore({
 
   mutations: {
     increament(state: typeof defaultState) {
-      state.count++
+      const s = state
+      s.count += 1
     }
   },
 
